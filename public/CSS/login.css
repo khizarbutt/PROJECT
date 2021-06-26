@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+* a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+}
+
+section .container {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 20px 1em;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #212429;
+}
+
+.nav {
+  background-color: #171a21;
+}
+
+.nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .container .box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .container .box a i {
+  font-size: 45px;
+  margin-right: 20px;
+  color: #c6d4df;
+}
+
+.nav .container .box a h3 {
+  font-weight: 300px;
+  margin: 5px 10px 0px 0px;
+  font-size: 25px;
+  color: #c6d4df;
+}
+
+.nav .container .box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+  margin-top: 8px;
+}
+
+.nav .container .box ul a {
+  margin: 0px 30px;
+  color: #c6d4df;
+}
+
+.mainbody .container-l {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 20px 1em;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+}
+
+.main .box-1 {
+  width: 100%;
+  background-image: url("../Images/Left login.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 1em;
+  padding-top: 150px;
+}
+
+.main .box-1 .inner-box {
+  float: right;
+}
+
+.main .box-1 .inner-box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 300px;
+}
+
+.main .box-1 .inner-box form h1 {
+  color: #d3d4d4;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.main .box-1 .inner-box form label {
+  color: #b7b7b9;
+  margin-bottom: 5px;
+}
+
+.main .box-1 .inner-box form input {
+  background-color: #32353C;
+  border: none;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.main .box-1 .inner-box form button {
+  background: #00d4ff;
+  background: linear-gradient(27deg, #00d4ff 0%, #1d8bc8 100%, #76c28c 100%);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  width: 150px;
+  margin: auto;
+  display: inline;
+}
+
+.main .box-1 .inner-box form button:hover {
+  background: #00d4ff;
+  background: linear-gradient(27deg, #00d4ff 0%, #1d8bc8 43%, #76c28c 100%);
+}
+
+.main .box-1 .inner-box form a {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.main .box-2 {
+  width: 100%;
+  padding: 50px 1em;
+}
+
+.main .box-2 .inner-box {
+  text-align: center;
+  width: 500px;
+}
+
+.main .box-2 .inner-box p {
+  color: #8d8e90;
+  margin-bottom: 15px;
+}
+
+.main .box-2 .inner-box img {
+  width: 100%;
+}
+
+.main .box-2 .inner-box .join {
+  border: 1px white solid;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+.main .box-2 .inner-box .join:hover {
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: #101113;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer .container .upper-links {
+  border-top: 1px #313235 solid;
+  padding: 20px 0px;
+}
+
+.footer .container .upper-links a {
+  background-color: #3D424B;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-right: 10px;
+  color: #cecece;
+}
+
+.footer .container .about {
+  color: #cecece;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px #313235 solid;
+  padding: 20px 0px;
+}
+
+.footer .container .about img {
+  margin-right: 20px;
+  position: relative;
+  width: 120px;
+}
+
+.footer .container .about .block p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.footer .container .about .block p a {
+  color: white;
+  border-right: 1px #cecece solid;
+  padding: 0px 20px;
+}
+
+.footer .container .about .block p a:nth-child(5) {
+  border-right: 0px #cecece solid;
+}
+
+.footer .container .lower-links {
+  border-top: 1px #313235 solid;
+  padding: 20px 0px;
+}
+
+.footer .container .lower-links a {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-right: 10px;
+  color: #cecece;
+}
+
+.footer .container .lower-links a i {
+  margin-right: 5px;
+}
+
+.footer .container .lower-links a .fa-facebook {
+  color: #2f6ee2;
+}
+
+.footer .container .lower-links a .fa-twitter {
+  color: #22a0e9;
+}
+
+.footer .container .lower-links a {
+  color: white;
+  border-right: 1px #cecece solid;
+  padding: 0px 20px;
+}
+
+.footer .container .lower-links a:nth-child(5) {
+  border-right: 0px #cecece solid;
+}
+/*# sourceMappingURL=login.css.map */

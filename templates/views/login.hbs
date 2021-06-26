@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./Images/">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <section class="nav">
+        <div class="container">
+            <div class="box">
+                <a href="index.html">
+                    <i class="fab fa-steam"></i>
+                    <h3>Steam</h3>
+                </a>
+            </div>
+            <div class="box">
+                <ul>
+                    <a href="#">Store</a>
+                    <a href="#">Library</a>
+                    <a href="#">Community</a>
+                    <a href="#">Friends</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="main">
+        <div class="box-1">
+            <div class="inner-box">
+                <form action="/login" method="POST">
+                    <h1>Sign In</h1>
+                    <label for="username">Steam account name</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Signin</button>
+                    <a href="#">Forgot your password?</a>
+                </form>
+            </div>
+        </div>
+        <div class="box-2">
+            <div class="inner-box">
+                <p>Join Steam and discover <br> thousands of games to play.</p>
+                <a href="#">Learn More</a>
+                <img src="./Images/right login.png">
+                <p>is Free and easy to use.</p>
+                <a href="./register" class="join" id="join">Join Steam</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="container">
+            <ul class="upper-links">
+                <a href="#">about steam</a>
+                <a href="#">about valve</a>
+                <a href="#">help</a>
+                <a href="#">news feed</a>
+            </ul>
+            <div class="about">
+                <img src="./Images/footerLogo_valve.png">
+                <div class="block">
+                    <p>&copy; 2021 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries. VAT included in all prices where applicable.
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Legal</a>
+                        <a href="#">Steam Subscriber Agreement</a>
+                        <a href="#">Refunds</a>
+                        <a href="#">Cookies</a>
+                    </p>
+                </div>
+                <img src="./Images/footerLogo_valve.png">
+            </div>
+            <ul class="lower-links">
+                <a href="#">About Valve</a>
+                <a href="#">Steamworks</a>
+                <a href="#">Jobs</a>
+                <a href="#">Steam Distribution</a>
+                <a href="#">Gift Cards</a>
+                <a href="#"><i class="fab fa-facebook"></i> Steam</a>
+                <a href="#"><i class="fab fa-twitter"></i> @steam</a>
+            </ul>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
